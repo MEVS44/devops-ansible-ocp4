@@ -1,0 +1,8 @@
+- name: Demostrar modulos K8s
+  host: localhost
+  gather_facts: no
+  connection: local 
+  vars: 
+     namespace: 
+     
+  module_defauls:    
